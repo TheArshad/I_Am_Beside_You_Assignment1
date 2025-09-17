@@ -1,3 +1,15 @@
+## 🚀 About ME
+Name : Arshad
+Department : Civil Engineering
+University : IIT Guwahati
+
+---
+
+## 🚀 DEMO
+Demo Link : https://drive.google.com/drive/folders/1ZPD7jNr2oj35Bt5Gz9F-udZ6qEKhBwpp?usp=drive_link
+---
+
+
 # 📄 AI Notes Summarizer
 
 The **AI Notes Summarizer** is a web application that allows users to upload a **PDF** or **image file** and receive a **concise, AI-generated summary** of its content.  
