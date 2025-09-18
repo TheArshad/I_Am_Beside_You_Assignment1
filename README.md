@@ -7,8 +7,53 @@ University : IIT Guwahati
 
 ## 🚀 DEMO
 Demo Link : https://drive.google.com/drive/folders/1ZPD7jNr2oj35Bt5Gz9F-udZ6qEKhBwpp?usp=drive_link
+
 ---
 
+## 🗂️ Project Structure
+
+├── components          # Reusable UI components
+│ ├── Header.tsx
+│ ├── NoteInput.tsx
+│ ├── SummaryOutput.tsx
+│ └── Icons.tsx
+├── hooks               # Custom React hooks
+│ └── useCopyToClipboard.ts
+├── services            # API and external services
+│ └── geminiService.ts
+├── App.tsx             # Main App component
+└── index.tsx           # React entry point
+├── index.html          # HTML template
+└── .env.local          # Environment variables
+
+## 🛠️ Setup Instructions 
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/TheArshad/I_Am_Beside_You_Assignment1.git
+cd cd I_Am_Beside_You_Assignment1/
+```
+
+### 2. Create a Virtual Environment/ **.env.local**
+
+According to Project Structure : Create A **.env.local** File and then paste the following content 
+```bash
+GEMINI_API_KEY='PLACE_YOUR_GEMINI_API_HERE'
+```
+
+### 3. Download All the dependancy 
+
+```bash
+npm i
+```
+
+### 3. Run the Development Server
+
+```bash
+npm run dev
+```
+---
 
 # 📄 AI Notes Summarizer
 
@@ -19,7 +64,7 @@ The system is designed to be **simple, fast, and efficient**, leveraging the **G
 
 ## 🚀 Features
 - Upload PDF or image files.
-- AI-powered summarization using Google Gemini.
+- AI-powered summarization using Gemini_API.
 - Progressive streaming for real-time feedback.
 - Modern, responsive UI with React + Tailwind CSS.
 - One-click copy for generated summaries.
@@ -74,20 +119,6 @@ The application follows a **client-server architecture**:
 - **geminiService.ts** → Encapsulates Gemini API calls and handles streaming logic.  
 
 ---
-
-## 🗂️ Project Structure
-
-├── components
-│ ├── Header.tsx
-│ ├── NoteInput.tsx
-│ ├── SummaryOutput.tsx
-│ └── Icons.tsx
-├── hooks
-│ └── useCopyToClipboard.ts
-├── services
-│ └── geminiService.ts
-├── App.tsx
-└── index.tsx
 
 ## 🗃️ Data Design
 
