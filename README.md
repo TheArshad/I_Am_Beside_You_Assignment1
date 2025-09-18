@@ -42,6 +42,7 @@ According to Project Structure : Create A   **.env.local**   File and then paste
 ```bash
 GEMINI_API_KEY='PLACE_YOUR_GEMINI_API_HERE'
 ```
+place your **Gemini API** 
 
 ### 3. Download All the dependancy 
 
