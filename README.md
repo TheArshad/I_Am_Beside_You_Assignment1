@@ -174,21 +174,36 @@ Node.js v18+
 
 Google Gemini API Key
 
+---
+💡 Why I Chose These Technologies
+⚛️ React
 
-# Install dependencies
-npm install
+For this project, I wanted something lightweight, fast, and easy to scale. React felt like the best choice because of its component-based structure – I could break the app into small, reusable parts like Header, NoteInput, and SummaryOutput, which made the code cleaner and easier to manage. The virtual DOM also gives smooth UI updates, which is important since the summary is streamed progressively.
 
-# Add your Gemini API key
-echo "GEMINI_API_KEY=your_api_key_here" > .env
+I did think about other frameworks like Angular or Vue, but Angular seemed too heavy for a simple summarization tool, and Vue’s ecosystem is still smaller compared to React. So React gave me the right balance of simplicity, speed, and community support.
 
-# Run development server
-npm run dev
-📜 License
-Licensed under the MIT License.
+🟦 TypeScript
 
-🤝 Contributing
-Pull requests are welcome!
-For major changes, open an issue first to discuss what you’d like to change.
+I decided to go with TypeScript instead of plain JavaScript because I wanted to avoid silly runtime errors and make the code more maintainable. With TypeScript’s type safety, I could catch mistakes early while coding. Also, since this project deals with things like file inputs, streaming responses, and API calls, having strong type definitions really helped me stay confident that my code won’t break easily.
+
+Another reason is better developer experience – IntelliSense and autocompletion in VS Code made the workflow smoother. Overall, TypeScript gave me more reliability and structure, which I felt was important for this project.
+
+🎨 Tailwind CSS
+
+For styling, I chose Tailwind CSS because it lets me build a clean and responsive UI without writing long CSS files. I liked how I could directly apply utility classes in my JSX, which saved time and made the design process much faster.
+
+Since this project needed a modern and minimal interface (upload area, summary output box, buttons), Tailwind gave me all the flexibility I needed while keeping the codebase small. Another plus point was not worrying about naming CSS classes or managing large stylesheets.
+
+🤖 Gemini API
+
+The core of this project is AI-powered summarization, so the choice of API was crucial. I went with Google’s Gemini API because it supports multimodal input (text, PDFs, images), which fit perfectly with my goal of allowing users to upload different file types.
+
+Another big reason was its streaming feature – I wanted the summary to appear in real-time instead of making the user wait for the entire output, and Gemini handled that really well.
+
+I did look at alternatives like OpenAI’s GPT API or Anthropic’s Claude, but most of them didn’t provide the same combination of multimodal support + streaming. That’s why Gemini made the most sense for this project.
+
+
+---
 
 🌟 Acknowledgements
 Google Gemini API for AI summarization.
