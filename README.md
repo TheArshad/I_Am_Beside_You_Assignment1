@@ -29,6 +29,16 @@ Demo Link : https://drive.google.com/drive/folders/1ZPD7jNr2oj35Bt5Gz9F-udZ6qEKh
 
 ## 🛠️ Setup Instructions 
 
+## 0. Prerequisites  
+
+Before running this project, make sure you have the following installed on your system:  
+
+- **Node.js** (v18 or later) → [Download here](https://nodejs.org/)  
+- **npm** (comes with Node.js)  
+- **Git** → [Download here](https://git-scm.com/)  
+- A **Google Gemini API Key** (you can get it from [Google AI Studio](https://aistudio.google.com/))  
+
+
 ### 1. Clone the Repository
 
 ```bash
