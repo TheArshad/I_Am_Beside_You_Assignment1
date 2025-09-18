@@ -37,7 +37,7 @@ cd cd I_Am_Beside_You_Assignment1/
 
 ### 2. Create a Virtual Environment/ **.env.local**
 
-According to Project Structure : Create A **.env.local** File and then paste the following content 
+According to Project Structure : Create A   **.env.local**   File and then paste the following content 
 ```bash
 GEMINI_API_KEY='PLACE_YOUR_GEMINI_API_HERE'
 ```
