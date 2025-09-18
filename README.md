@@ -11,7 +11,7 @@ Demo Link : https://drive.google.com/drive/folders/1ZPD7jNr2oj35Bt5Gz9F-udZ6qEKh
 ---
 
 ## 🗂️ Project Structure
-
+```
 ├── components          # Reusable UI components
 │ ├── Header.tsx
 │ ├── NoteInput.tsx
@@ -25,6 +25,7 @@ Demo Link : https://drive.google.com/drive/folders/1ZPD7jNr2oj35Bt5Gz9F-udZ6qEKh
 └── index.tsx           # React entry point
 ├── index.html          # HTML template
 └── .env.local          # Environment variables
+```
 
 ## 🛠️ Setup Instructions 
 
