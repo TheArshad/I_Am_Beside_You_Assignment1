@@ -60,7 +60,7 @@ place your **Gemini API**
 npm i
 ```
 
-### 3. Run the Development Server
+### 4. Run the Development Server
 
 ```bash
 npm run dev
