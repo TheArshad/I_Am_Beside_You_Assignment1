@@ -71,6 +71,15 @@ The system is designed to be **simple, fast, and efficient**, leveraging the **G
 - One-click copy for generated summaries.
 
 ---
+## 🚀 Interaction logs (chat history with the AI)
+
+**Input :**  
+![Input](https://github.com/SuperpArshad/Second_repo/blob/main/input.jpg?raw=true)  
+
+**Output :**  
+![Output](https://github.com/SuperpArshad/Second_repo/blob/main/output.jpg?raw=true)
+
+---
 
 ## 🏗️ System Architecture
 
